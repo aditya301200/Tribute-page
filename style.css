@@ -1,0 +1,78 @@
+:root{
+    --background-color: #e9e8e1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.8rem;
+}
+
+.container{
+    margin: 1.2rem;
+    background-color: var(--background-color);
+}
+
+.container header {
+    text-align: center;
+}
+
+#title{
+    font-family: cursive;
+    font-weight: 900;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#title-info{
+    padding-bottom: 0.5rem;
+}
+
+img {
+   width: 97%;
+   margin-left: 1em;
+   margin-right: 1em; 
+}
+
+#img-caption {
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#tribute-info {
+    padding: 1em;
+    font-size: large;
+    padding-left: 1.5rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#tribute-subject {
+    padding-left: 5em;
+    padding-right: 2em;
+    text-align: justify;
+}
+
+#tribute-subject li {
+    padding-bottom: 1em;
+}
+
+#more {
+    font-size: 0.6rem;
+}
+
+#more a:visited {
+    color: brown;
+}
+
+#more a:hover {
+    color: green;
+}
+
+#more a:active {
+    color: dimgray;
+}
